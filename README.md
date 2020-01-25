@@ -6,7 +6,7 @@ Source Code for Pass Fail Detector
 ```shell
 git clone https://github.com/CrazyLilOsama/Pass-Fail-Detector.git
 ```
-Open VS Code and ``type ctrl+P``, type ``ext install ritwickdey.liveserver`` , type ``alt+O``.
+Open VS Code and type ``ctrl+P``, type ``ext install ritwickdey.liveserver`` , type ``alt+O``.
 
 Calculation Code in ``assets/js/calculation.js``
 
