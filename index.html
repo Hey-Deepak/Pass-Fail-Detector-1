@@ -11,6 +11,7 @@
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
+
   <body class="is-preload">
     <div id="wrapper">
       <section class="intro">
@@ -18,7 +19,7 @@
           <h1>Pass Fail Detector</h1>
           <h2>By <a href="http://jueezy.rocks">JU-Eezy</a></h2>
         </header>
-        <div class="content">
+        <div style="text-align: center;" class="content">
           <br /><br />
           <p>
             <i>A Detector to know how risk you are taking ;-)</i>
@@ -30,14 +31,7 @@
             Contribute</a
           ><br /><br />
           <h2>Contributers:</h2>
-          <ul>
-            <li>
-              <b><a href="#">Deepak Choudhary</a></b>
-            </li>
-            <li>
-              <b><a href="https://crazylilosama.me">Yashraj Mishra</a></b>
-            </li>
-          </ul>
+          <h2 class="txt-rotate"></h2>
         </div>
       </section>
 
@@ -121,7 +115,9 @@
             </div>
             <ul class="actions">
               <li>
-                <a href="#" class="button primary icon solid fa-calculator"
+                <a
+                  onclick="findGrade()"
+                  class="button primary icon solid fa-calculator"
                   >Calculate</a
                 >
               </li>
@@ -133,16 +129,21 @@
       </section>
 
       <section>
-        <header><h2>Result</h2></header>
+        <header>
+          <h2>Result</h2>
+        </header>
         <div class="content">
           <h1 style="text-align: center;">
-            You are <strong style="color: #49fcd4;">Passed</strong>
+            You are
+            <strong id="resultObject" style="color: #49fcd4;">Passed</strong>
           </h1>
         </div>
       </section>
       <!-- Section -->
       <section>
-        <header><h2>Hey There..</h2></header>
+        <header>
+          <h2>Hey There..</h2>
+        </header>
         <footer>
           <ul class="items">
             <li>
@@ -213,5 +214,7 @@
     <script src="./assets/js/util.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/calculation.js"></script>
+    <script src="./assets/js/contributerList.js"></script>
+    <script src="./assets/contributer.json"></script>
   </body>
 </html>
